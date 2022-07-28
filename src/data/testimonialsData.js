@@ -11,7 +11,7 @@ export const testimonialsData = [
     id: 1,
     name: "Degsew Birhanu",
     title: "CEO, Algorithmiot",
-    text: "Creative instructor, punctual and loves what he do, we really are lucy to have him we us!",
+    text: "Creative instructor, punctual and loves what he do, we really are lucy to have him with us!",
     image: boy2,
   },
   //   {
