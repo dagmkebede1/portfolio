@@ -10,7 +10,7 @@ import four from "../assets/svg/projects/four.svg";
 import five from "../assets/svg/projects/five.svg";
 import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
-import eight from "../assets/svg/projects/eight.svg";
+import eight from "../assets/svg/projects/appleReact.jpg";
 
 export const projectsData = [
   {
@@ -31,6 +31,15 @@ export const projectsData = [
     code: "https://github.com/samsonmeseret/React-Projects/tree/master/Github-Users",
     demo: "https://sami-github-api.netlify.app",
     image: github,
+  },
+  {
+    id: 8,
+    projectName: "Apple website clone",
+    projectDesc: "Apple clone with react components",
+    tags: ["React", "Bootstrap", "Jquery"],
+    code: "https://github.com/samsonmeseret/react-apple-clone",
+    demo: "https://apple-project-react.netlify.app/",
+    image: eight,
   },
   {
     id: 5,
@@ -80,16 +89,6 @@ export const projectsData = [
     demo: "https://github.com/samsonmeseret/Node-Projects/tree/master/Authentication",
     image: auth,
   },
-  // {
-  //   id: 8,
-  //   projectName: "Car Pooling System",
-  //   projectDesc:
-  //     "The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution",
-  //   tags: ["Flutter", "React"],
-  //   code: "",
-  //   demo: "",
-  //   image: eight,
-  // },
 ];
 
 // Do not remove any fields.
