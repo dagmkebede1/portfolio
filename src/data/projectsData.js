@@ -1,16 +1,12 @@
-import one from "../assets/svg/projects/one.svg";
-import two from "../assets/svg/projects/two.svg";
 import storeproduct from "../assets/svg/projects/Screenshot-6.png";
 import github from "../assets/svg/projects/Screenshot-8.png";
 import api from "../assets/svg/projects/926f6aaba773.png";
 import healeye from "../assets/svg/projects/harpreet-singh-ZI2Lv7jxmEM-unsplash.jpg";
 import auth from "../assets/svg/projects/regularguy-eth-eNxYF6cexYU-unsplash.jpg";
 import three from "../assets/svg/projects/three.svg";
-import four from "../assets/svg/projects/four.svg";
-import five from "../assets/svg/projects/five.svg";
-import six from "../assets/svg/projects/six.svg";
-import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/appleReact.jpg";
+import netflix from "../assets/svg/projects/netflix-clone.jpeg";
+import amazon from "../assets/svg/projects/amazon-clone.jpeg";
 
 export const projectsData = [
   {
@@ -33,7 +29,7 @@ export const projectsData = [
     image: github,
   },
   {
-    id: 8,
+    id: 3,
     projectName: "Apple website clone",
     projectDesc: "Apple clone with react components",
     tags: ["React", "Bootstrap", "Jquery"],
@@ -42,7 +38,26 @@ export const projectsData = [
     image: eight,
   },
   {
+    id: 4,
+    projectName: "Netflix Clone",
+    projectDesc: "React Netflix clone using the movie database open source API",
+    tags: ["React", "TMDB", "Firebase", "React-spinners", "Bootstrap"],
+    code: "https://github.com/samsonmeseret/netflix-Clone",
+    demo: "https://netflix-clone-d2860.firebaseapp.com",
+    image: netflix,
+  },
+  {
     id: 5,
+    projectName: "Amazon Clone",
+    projectDesc:
+      "MERN amazon clone using React, Node, Express, Stipe and Firebase",
+    tags: ["React", "Node", "Express", "Firebase", "Stripe"],
+    code: "https://github.com/samsonmeseret/Amazon-Clone",
+    demo: "https://clone-d172f.web.app/",
+    image: amazon,
+  },
+  {
+    id: 6,
     projectName: "HealEye, Patient Management System",
     projectDesc:
       "complete MERN App, consisting of patient management, booking, expense Stats and More.",
@@ -52,7 +67,7 @@ export const projectsData = [
     image: healeye,
   },
   {
-    id: 3,
+    id: 7,
     projectName: "AlgoSpace, Modern E-Learning Platform",
     projectDesc:
       "Complete E-Learning System, with Resource, multiple User Accounts Roles, Authentication and Authorization ",
@@ -62,7 +77,7 @@ export const projectsData = [
     image: three,
   },
   {
-    id: 4,
+    id: 8,
     projectName: "E-Learning, API",
     projectDesc:
       "This project is a Complete E-Learning API, to be consumed by frontEnd library's like ReactJs, Angular or Other",
@@ -72,7 +87,7 @@ export const projectsData = [
     image: api,
   },
   {
-    id: 6,
+    id: 9,
     projectName: "Store, API",
     projectDesc: "products store API",
     tags: ["NodeJS", "MongoDB", "Express"],
@@ -81,7 +96,7 @@ export const projectsData = [
     image: api,
   },
   {
-    id: 7,
+    id: 10,
     projectName: "Authentication System",
     projectDesc: "Session based authentication system",
     tags: ["NodeJS", "Express", "PassportJS", "EJS", "Bootstrap"],
