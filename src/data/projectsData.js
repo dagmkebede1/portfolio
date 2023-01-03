@@ -10,6 +10,34 @@ import amazon from "../assets/svg/projects/amazon-clone.jpeg";
 
 export const projectsData = [
   {
+    id: 5,
+    projectName: "Amazon Clone",
+    projectDesc:
+      "MERN amazon clone using React, Node, Express, Stipe and Firebase",
+    tags: ["React", "Node", "Express", "Firebase", "Stripe"],
+    code: "https://github.com/samsonmeseret/Amazon-Clone",
+    demo: "https://clone-d172f.web.app/",
+    image: amazon,
+  },
+  {
+    id: 4,
+    projectName: "Netflix Clone",
+    projectDesc: "React Netflix clone using the movie database open source API",
+    tags: ["React", "TMDB", "Firebase", "React-spinners", "Bootstrap"],
+    code: "https://github.com/samsonmeseret/netflix-Clone",
+    demo: "https://netflix-clone-d2860.firebaseapp.com",
+    image: netflix,
+  },
+  {
+    id: 3,
+    projectName: "Apple website clone",
+    projectDesc: "Apple clone with react components",
+    tags: ["React", "Bootstrap", "Jquery"],
+    code: "https://github.com/samsonmeseret/react-apple-clone",
+    demo: "https://apple-project-react.netlify.app/",
+    image: eight,
+  },
+  {
     id: 1,
     projectName: "Product Store",
     projectDesc: "This project aims to build a product of company",
@@ -28,34 +56,7 @@ export const projectsData = [
     demo: "https://sami-github-api.netlify.app",
     image: github,
   },
-  {
-    id: 3,
-    projectName: "Apple website clone",
-    projectDesc: "Apple clone with react components",
-    tags: ["React", "Bootstrap", "Jquery"],
-    code: "https://github.com/samsonmeseret/react-apple-clone",
-    demo: "https://apple-project-react.netlify.app/",
-    image: eight,
-  },
-  {
-    id: 4,
-    projectName: "Netflix Clone",
-    projectDesc: "React Netflix clone using the movie database open source API",
-    tags: ["React", "TMDB", "Firebase", "React-spinners", "Bootstrap"],
-    code: "https://github.com/samsonmeseret/netflix-Clone",
-    demo: "https://netflix-clone-d2860.firebaseapp.com",
-    image: netflix,
-  },
-  {
-    id: 5,
-    projectName: "Amazon Clone",
-    projectDesc:
-      "MERN amazon clone using React, Node, Express, Stipe and Firebase",
-    tags: ["React", "Node", "Express", "Firebase", "Stripe"],
-    code: "https://github.com/samsonmeseret/Amazon-Clone",
-    demo: "https://clone-d172f.web.app/",
-    image: amazon,
-  },
+
   {
     id: 6,
     projectName: "HealEye, Patient Management System",
