@@ -1,11 +1,11 @@
 export const educationData = [
-  // {
-  //     id: 1,
-  //     institution: 'Marble Hills Middle School',
-  //     course: 'Higher Secondary Education',
-  //     startYear: '2007',
-  //     endYear: '2015'
-  // },
+  {
+    id: 1,
+    institution: "Evangadi INC",
+    course: "FullStack Web Development",
+    startYear: "2021",
+    endYear: "2022",
+  },
   {
     id: 2,
     institution: "Haramaya Institute of Technology",

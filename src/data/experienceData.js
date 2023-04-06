@@ -1,6 +1,13 @@
 export const experienceData = [
   {
     id: 1,
+    company: "Evangadi INC",
+    jobtitle: "Instructor",
+    startYear: "2022",
+    endYear: "present",
+  },
+  {
+    id: 2,
     company: "Algorithmiot",
     jobtitle: "Instructor",
     startYear: "2021",

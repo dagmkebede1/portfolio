@@ -4,7 +4,7 @@ export const headerData = {
   name: "Samson Meseret",
   title: "FullStack Web Developer",
   desciption:
-    "a Computer Programmer Specialized on MERN Stack Web Development, based in Ethiopia.",
+    "a Software Developer Specialized on MERN Stack Web Development, based in Ethiopia.",
   image: "",
   resumePdf: resume,
 };
