@@ -26,7 +26,7 @@ export const testimonialsData = [
     name: "Rediat Terefe",
     title: "Software Engineer",
     text: "quick learner, follows uptodate practices, humble getlemen",
-    image: girl1,
+    image: boy3,
   },
   //   {
   //     id: 4,
