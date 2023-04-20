@@ -14,7 +14,14 @@ export const experienceData = [
     endYear: "2021",
   },
   {
-    id: 2,
+    id: 3,
+    company: "MultiRender",
+    jobtitle: "FullStack Enginer",
+    startYear: "2021",
+    endYear: "Present",
+  },
+  {
+    id: 4,
     company: "MSF-Holland",
     jobtitle: "Data Entry Operator",
     startYear: "2021",
